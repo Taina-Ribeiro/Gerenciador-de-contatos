@@ -75,6 +75,7 @@ def atualizar_contato(contatos, nome):
                 if erros:
                     raise ValueError("\n".join(erros))
                 
+                
                 contatos[nomeNovo] = {
                     'telefone': telefone,
                     'email': email,
